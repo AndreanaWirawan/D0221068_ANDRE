@@ -1,0 +1,13 @@
+# D0221068_ANDRE
+
+member1 = {"ID" : 101,
+           "nama" : "i putu andreana wirawan",
+           "pekerjaan" : "kuliah",
+           "status" : "mahasiswa"}
+member2 = {"ID" : 102,
+           "nama" : "andreana",
+           "pekerjaan" : "petani",
+           "status" : "buruh tani"}
+
+memberlist = {101:member1,102:member2}
+print (memberlist[101])
