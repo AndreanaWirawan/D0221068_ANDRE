@@ -1,0 +1,25 @@
+# D0221068_ANDRE
+
+#membuat contoh list
+nama =["putu", "andreana", "wirawan"]
+
+#menampilkan list dengan perulangan
+for i in nama :
+   print(i)
+
+i = 0
+while i < len(nama):
+   print(nama[i])
+   i += 1
+    
+#menganti nama list
+nama [0] = "dika"
+print(nama)
+
+#menambah nama list
+nama.append("riko")
+print(nama)
+
+#menghapus nama list
+del nama[1]
+print (nama)
