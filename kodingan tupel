@@ -1,0 +1,32 @@
+# D0221068_ANDRE
+#membuat contoh tupel 
+buah = ("semangka","nanas","jeruk")
+
+#menampilkan tupel dengan perulangan
+for i in buah:
+    print (buah)
+
+buah = list(buah)
+#mengupdate salah satu tupel
+buah[0] = "mangga"
+print (buah)
+
+#menghapus salah satu tupel
+buah.pop()
+print (buah)
+
+buah.remove("nanas")
+print (buah)
+
+del buah[0:2]
+print (buah)
+
+#menambah tupel
+buah.append("manggis")
+print (buah)
+
+buah.extend(["jambu"])
+print (buah)
+
+buah.insert(3,"salak")
+print (buah)
