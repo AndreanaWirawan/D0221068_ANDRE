@@ -1,0 +1,31 @@
+# D0221068_ANDRE
+#membuat contoh set
+nama ={"putu",10, False,5, "Andre"}
+
+#menampilkan set dan perulagan
+for i in nama :
+    print (i)
+
+nama = list(nama)
+i = 0
+while i < len(nama):
+    print(nama[i])
+    i += 1
+#mengupdate salah satu set
+nama [1] = "mangga"
+print(nama)
+
+nama = set (nama)
+
+#menghapus salah satu set
+nama.remove ("mangga")
+print(nama)
+
+nama.discard ("jeruk")
+print (nama)
+
+nama.pop()
+print(nama)
+
+nama.clear()
+print(nama)
