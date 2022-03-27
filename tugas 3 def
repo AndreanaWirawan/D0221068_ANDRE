@@ -1,0 +1,52 @@
+# D0221068_ANDRE
+repository baru
+barang = []
+
+def menu():
+        print('=' * 20, "PROGRAM BARANG", '=' * 20)
+        print['''
+1.Tambah barang
+2.Hapus Barang
+3.Cek Barang
+4.Edit Barang
+5.Cek Ketersidian Barang
+6.Cek Indeks Barang
+7.Keluar
+''']
+        for i in listmenu:
+            print(i)
+        pilih = input("masukan pilihan anda :")
+        if pilihan == "1":
+            tambah()
+        elif pilihan == "2":
+            tambah()
+        elif pilihan == "3":
+            tambah()
+        elif pilihan == "4":
+            tambah()
+        elif pilihan == "5":
+            tambah()
+        elif pilihan == "6":
+            tambah()
+        elif pilihan == "7":
+            tambah()
+
+def tambah_barang():
+    while True:
+        tambah = input("masukan barang anda:")
+        barang.append(tambah)
+        lanjut = input("tekan Y jika lanjut:").upper()
+        if lanjut == "Y":
+            pass
+        else :
+            menu()
+
+def hapus_barang():
+    while True :
+        hapus = input("masukan nama barang:")
+        barang.remove(hapus)
+        lanjut = input("tekan Y jika lanjut:").upper()
+        if lanjut == "Y":
+            pass
+        else :
+            menu()
